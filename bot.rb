@@ -20,9 +20,9 @@ def do_job
 
   driver.find_element(:xpath, "//a[@href='index.php?Login=1']").click
 
-  find_element_by_id('username').send_keys 'mail@it.student.pens.ac.id'
+  find_element_by_id('username').send_keys 'ennobell17@it.student.pens.ac.id'
 
-  find_element_by_id('password').send_keys 'password'
+  find_element_by_id('password').send_keys 'Cristiano17'
 
   driver.find_element(:xpath, "//input[@value='LOGIN']").click
 
@@ -36,7 +36,7 @@ def do_job
 
   find_element_by_id('jam_selesai').send_keys '18:00'
 
-  find_element_by_id('kegiatan').send_keys 'Sprint planning and make UAT'
+  find_element_by_id('kegiatan').send_keys 'fix race condition in controller'
 
   find_element_by_id('sesuai_kuliah1').click
 
